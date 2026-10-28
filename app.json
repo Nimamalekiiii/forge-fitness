@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Forge",
+    "slug": "forge-fitness",
+    "scheme": "forge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07090D",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nimamaleki.forge",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Forge uses the camera to scan your meals and estimate their nutrition.",
+        "NSPhotoLibraryUsageDescription": "Forge lets you pick meal photos and progress photos from your library.",
+        "NSMotionUsageDescription": "Forge reads your step count to track your daily activity.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.nimamaleki.forge",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "CAMERA",
+        "ACTIVITY_RECOGNITION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D8BFF"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Forge uses the camera to scan your meals and estimate their nutrition.",
+          "photosPermission": "Forge lets you pick meal photos and progress photos from your library."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#07090D"
+        }
+      ],
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "icon": "./assets/icon.png"
+  }
+}
