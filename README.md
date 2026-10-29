@@ -30,7 +30,7 @@ Er mobilen og Macen på forskjellige nett: `npx expo start --tunnel`.
 | **Onboarding** | Mål (Build Muscle / Lose Fat / Maintain), kjønn, alder, høyde, vekt, målvekt, erfaring, dager/uke, øktlengde, utstyr, aktivitetsnivå, kosthold → AI bygger program + kalorimål |
 | **Home** | Hilsen, ukestripe, *"You're X% toward your weekly goal"*, Today's Focus (økt, kcal, protein, vann), AI Recommendation, Daily Goals (kalorier, protein, vann m/ +250/+500, steg fra iPhone), Recovery-score per muskel, søvn og dagsform, Quick Actions |
 | **Workout** | For You (dagens/neste økt), This Week, My Workouts, Create Workout, Programs (AI-genererte), Exercise Library (søk + muskelfilter), History, Personal Records |
-| **Active Workout** | Øvelse → sett → kg → reps, hvile-timer, AI-mål per øvelse (progressive overload), live 🏆 PR-varsel, bytt/legg til øvelse, oppsummering med "Recovery fuel" |
+| **Active Workout** | Øvelse → sett → kg → reps, hvile-timer, AI-mål per øvelse (progressive overload), live  PR-varsel, bytt/legg til øvelse, oppsummering med "Recovery fuel" |
 | **Nutrition** | Kalorier + makro-ringer, måltider per dag, matdatabase, AI Food Scanner, måltidsdetaljer (redigerbare ingredienser og porsjoner), oppskrifter, AI-måltidsplan, handleliste |
 | **Progress** | Vekt, fett %, muskelmasse, styrke, mål (midje/bryst/arm/lår), progresjonsbilder (før/etter), PR-er, grafer, ukentlige/månedlige rapporter med AI-oppsummering |
 | **Profile** | Mål, kroppsdata, aktivitetsnivå, treningspreferanser, utstyr, kosthold, enheter (metric/imperial), varsler, AI-innstillinger |
