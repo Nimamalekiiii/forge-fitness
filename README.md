@@ -1,6 +1,6 @@
-# Forge – AI Fitness Coach 💪
+# Forge – AI Fitness Coach 
 
-> 🚧 **Under utvikling** – dette prosjektet er ikke ferdig ennå, og flere endringer kommer.
+>  **Under utvikling** – dette prosjektet er ikke ferdig ennå, og flere endringer kommer.
 
 Mørk premium treningsapp bygget med **Expo + React Native + TypeScript**. Ikke bare tracking – en AI-coach som lærer av
 **Workout → Nutrition → Recovery → Progress** og gir deg konkrete anbefalinger hver dag.
